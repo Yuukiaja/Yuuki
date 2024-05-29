@@ -1,0 +1,67 @@
+/* Resetting default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling header */
+header {
+    background-color: #272727;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling navigation */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Styling active link */
+ul li.active a {
+    font-weight: bold; /* Menunjukkan bahwa ini adalah halaman yang aktif */
+}
+
+/* Styling buttons */
+.button {
+    margin-top: 20px;
+}
+
+.btn1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0f9d58;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 5px; /* Memberikan sudut yang sedikit dibulatkan */
+}
+
+/* Hover effect on buttons */
+.btn1:hover {
+    background-color: #1b1a1a; /* Warna latar belakang yang berbeda saat tombol dihover */
+}
+
+/* Styling title */
+.title h1 {
+    margin-top: 50px;
+    font-size: 36px;
+    color: #ffffff;
+}
+
+/* Styling logo */
+.logo img {
+    width: 100px; /* Sesuaikan kebutuhan */
+    height: auto;
+}
